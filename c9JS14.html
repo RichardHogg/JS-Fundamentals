@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>14. Understanding the Document Object Model</title>
+  <script type="text/javascript" src="script14.js"></script>
+ </head>
+ <body>
+  <h1 id="title">14. Understanding the Document Object Model</h1>
+  <div id="main">
+    <p id="first">This is the first pargraph</p>
+    <p id="second">
+    <strong>Second paragraph</strong>
+    </p>
+    <p id="Third">Third paragraph</p>
+   </div>
+   <div id="form">
+    <input type="submit" id="clickMe" value="Click Me" />
+   <script type="text/javascript">
+     document.getElementById('clickMe').onclick = runTheExample;
+   </script>
+    <a href="http://www.google.com" id="myAnchor">google!</a>
+   </div>
+ </body>
+</html>
